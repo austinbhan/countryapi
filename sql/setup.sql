@@ -8,3 +8,12 @@ CREATE TABLE countries (
     capitol VARCHAR NOT NULL,
     langue VARCHAR NOT NULL
 );
+
+INSERT INTO 
+    countries (country, capitol, langue)
+VALUES 
+('United States', 'Washington DC', 'English'),
+('United Kingdom', 'London', 'English'),
+('India', 'New Dehli', 'Hindi'),
+('Romania', 'Bucharest', 'Romanian'),
+('China', 'Beijing', 'Chinese');
